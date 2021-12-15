@@ -1,0 +1,77 @@
+:root {
+  --background: #04000a;
+  --primary-btn: #6819fa;
+  --primary-text: #f8f5ff;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--primary-text);
+}
+
+.container {
+  margin: 1rem 15rem;
+}
+
+.wallet-adapter {
+  &-modal-wrapper {
+    background-color: #371b37 !important;
+  }
+
+  &-button {
+    background-color: var(--primary-btn);
+    height: 40px;
+    min-width: 10rem;
+    cursor: pointer;
+    padding: 12px 1rem;
+  }
+
+  &-modal-button-close {
+    fill: #745474;
+  }
+
+  &-dropdown-list-active {
+    background-color: #371b37 !important;
+  }
+
+  &-dropdown-list-item {
+    background-color: var(--primary-btn) !important;
+
+    &:last-child {
+      background-color: #ff0000 !important;
+    }
+  }
+}
+
+.nav {
+  padding: 1rem 15rem;
+  margin-bottom: 5rem;
+  background-color: rgb(35, 17, 35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-text);
+
+  &-logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--primary-text);
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2.5rem;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: var(--primary-text);
+  }
+}

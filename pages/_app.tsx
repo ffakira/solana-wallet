@@ -1,10 +1,10 @@
-import "../styles/globals.css"
+import "../styles/globals.scss"
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui"
 import { AppProps } from "next/app"
 import dynamic from "next/dynamic"
 import { FC, ReactNode } from "react"
 
-require("@solana/wallet-adapter-react-ui/styles.css")
+import "@solana/wallet-adapter-react-ui/styles.css"
 
 const WalletConnectionProvider = dynamic<{ children: ReactNode }>(
   () =>
