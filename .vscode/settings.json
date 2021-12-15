@@ -4,6 +4,5 @@
   },
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.tabSize": 2
 }
