@@ -1,8 +1,12 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
 
-export const Nav = (): JSX.Element => {
+const Nav = (): JSX.Element => {
   return(
-    <nav>
+    <nav className="nav">
+      <div className="nav-header">
+        <a href="/" className="nav-logo">Only1</a>
+        <a href="/staking" className="nav-link">Staking Pool</a>
+      </div>
       <WalletMultiButton />
     </nav>
   )
